@@ -25,5 +25,6 @@ resource "aws_instance" "example" {
 
 resource "aws_ebs_volume" "example" {
   availability_zone = "us-west-2a"
-  size              = 2
+  # xingong just changed the size from 2 to 1, as fari had suggested
+  size              = 1
 }
