@@ -26,6 +26,6 @@ resource "aws_instance" "example" {
 // Amazon Elastic Block Store (EBS)
 resource "aws_ebs_volume" "example" {
   availability_zone = "us-west-2a"
-  # xingong just changed the size from 2 to 1 and then to 4, as fari had suggested
+  # just changed the size from 2 to 1 and then to 4, as fari had suggested
   size              = 4
 }
